@@ -93,7 +93,7 @@ export function Board({ goToFamily }: { goToFamily: () => void }) {
                   <div className="bar" aria-label={`${done} of ${total} points this week`}>
                     <span style={{ width: total ? `${(done / total) * 100}%` : 0 }} />
                   </div>
-                  <small className="muted">⭐ {done} / {total} points this week</small>
+                  <small className="muted">💜 {done} / {total} points this week</small>
                 </div>
               </header>
 
