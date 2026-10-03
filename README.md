@@ -25,13 +25,13 @@ npm run build    # static site in dist/ (works on GitHub Pages)
 
 Everything is saved in the browser's local storage through the `DataStore` interface in `src/lib/storage.ts`. To sync across devices later (Firebase, Supabase, …), implement that interface and swap `store`. Nothing else needs to change.
 
-## Colors: Sunny Pop
+## Colors: Berry Pop
 
 | | |
 |---|---|
 | Background | cream `#FFF8EC` |
 | Primary buttons | coral `#FF6B6B` |
-| Points & highlights | sunshine `#FFC93C` |
+| Points & highlights | purple `#9B5DE5` |
 | Done | mint `#4ECDC4` |
 | Selected day / info | sky `#5DA9E9` |
 | Text | ink `#2D3047` |
